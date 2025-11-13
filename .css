@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: white;
+  position: relative;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.blue {
+  background: blue;
+  top: 0;
+  left: 0;
+}
+
+.red {
+  background: red;
+  top: 0;
+  right: 0;
+}
+
+.green {
+  background: limegreen;
+  bottom: 0;
+  left: 0;
+}
+
+.yellow {
+  background: yellow;
+  bottom: 0;
+  right: 0;
+}
