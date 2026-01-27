@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Simple Registration</h2>
+  <button onclick="register()">Register</button>
+
+  <script>
+    function register() {
+      var name = prompt("Enter your name:");
+      var email = prompt("Enter your email:");
+      var password = prompt("Enter your password:");
+
+      if (name === "" || email === "" || password === "") {
+        alert("All fields are required!");
+      } else {
+        alert("Registration successful! Name: " + name + " Email: " + email);
+      }
+    }
+  </script>
+</body>
+</html>
